@@ -1,0 +1,5 @@
+export { default as Grand_Central_Terminal_1_Img } from './1.jpg'
+export { default as Grand_Central_Terminal_2_Img } from './2.jpg'
+export { default as Grand_Central_Terminal_3_Img } from './3.jpg'
+export { default as Grand_Central_Terminal_4_Img } from './4.jpg'
+export { default as Grand_Central_Terminal_5_Img } from './5.jpg'

@@ -1,0 +1,5 @@
+export { default as Palace_of_Westminster_1_Img } from './1.jpg'
+export { default as Palace_of_Westminster_2_Img } from './2.jpg'
+export { default as Palace_of_Westminster_3_Img } from './3.jpg'
+export { default as Palace_of_Westminster_4_Img } from './4.jpg'
+export { default as Palace_of_Westminster_5_Img } from './5.jpg'

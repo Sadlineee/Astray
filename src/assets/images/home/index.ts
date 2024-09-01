@@ -1,0 +1,1 @@
+export { default as homeImg } from './home.png'

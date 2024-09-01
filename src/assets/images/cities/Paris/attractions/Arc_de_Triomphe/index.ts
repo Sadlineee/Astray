@@ -1,0 +1,5 @@
+export { default as Arc_de_Triomphe_1_Img } from './1.jpg'
+export { default as Arc_de_Triomphe_2_Img } from './2.jpg'
+export { default as Arc_de_Triomphe_3_Img } from './3.jpg'
+export { default as Arc_de_Triomphe_4_Img } from './4.jpg'
+export { default as Arc_de_Triomphe_5_Img } from './5.jpg'

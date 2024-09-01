@@ -1,0 +1,5 @@
+export { default as Central_Park_1_Img } from './1.jpg'
+export { default as Central_Park_2_Img } from './2.jpg'
+export { default as Central_Park_3_Img } from './3.jpg'
+export { default as Central_Park_4_Img } from './4.jpg'
+export { default as Central_Park_5_Img } from './5.jpg'
