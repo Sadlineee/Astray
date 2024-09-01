@@ -5,7 +5,7 @@ import ScrollToTop from '@components/ScrollToTop'
 import PageLoad from '@components/PageLoad'
 
 const Home = React.lazy(() => import('@views/Home'))
-// const Main = React.lazy(() => import('@views/Main/Main'))
+const Main = React.lazy(() => import('@views/Main'))
 
 const LazyLoad: React.FC<{ children: ReactNode }> = ({ children }) => ( 
   <Suspense fallback={ <PageLoad /> }> 
@@ -20,7 +20,7 @@ const App: React.FC = () => {
       <ScrollToTop />
       <Routes>
         <Route path='/astray' element={<LazyLoad><Home /></LazyLoad>} />
-        {/* <Route path='/main' element={<LazyLoad><Main /></LazyLoad>} /> */}
+        <Route path='/main' element={<LazyLoad><Main /></LazyLoad>} />
       </Routes>
     </Router>
   )

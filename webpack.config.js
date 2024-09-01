@@ -16,6 +16,7 @@ module.exports = (env, argv) => {
         '@assets': path.resolve(__dirname, 'src/assets'),
         '@styles': path.resolve(__dirname, 'src/styles'),
         '@services': path.resolve(__dirname, 'src/services'),
+        '@data': path.resolve(__dirname, 'src/data'),
         '@components': path.resolve(__dirname, 'src/components'),
         '@views': path.resolve(__dirname, 'src/views')
       }
