@@ -1,0 +1,8 @@
+export { default as Buckingham_Palace_Img } from './Buckingham_Palace/1.jpg'
+export { default as Tower_Bridge_Img } from './Tower_Bridge/3.jpg'
+export { default as British_Museum_Img } from './British_Museum/4.jpg'
+export { default as Palace_of_Westminster_Img } from './Palace_of_Westminster/4.jpg'
+export { default as Tower_of_London_Img } from './Tower_of_London/4.jpg'
+export { default as Hyde_Park_Img } from './Hyde_Park/4.jpg'
+export { default as London_Eye_Img } from './London_Eye/3.jpg'
+export { default as National_Gallery_Img } from './National_Gallery/2.jpg'

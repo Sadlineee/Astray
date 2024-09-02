@@ -1,0 +1,6 @@
+export { default as Statue_of_Liberty_Img } from './Statue_of_Liberty/1.jpg'
+export { default as Times_Square_Img } from './Times_Square/3.jpg'
+export { default as Brooklyn_Bridge_Img } from './Brooklyn_Bridge/3.jpg'
+export { default as Central_Park_Img } from './Central_Park/5.jpg'
+export { default as Empire_State_Building_Img } from './Empire_State_Building/2.jpg'
+export { default as Grand_Central_Terminal_Img }  from './Grand_Central_Terminal/3.jpg'

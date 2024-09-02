@@ -1,16 +1,12 @@
-import { CityProps } from '@/types/CityProps'
+import { CityCardProps } from '@/types/CityCardProps'
 import * as flagImg from '@assets/images/flags'
+import { London_Img, Paris_Img, New_York_Img, Rio_de_Janeiro_Img } from '@assets/images/cities'
 
-import LondonImg from '@assets/images/cities/London/attractions/Palace_of_Westminster/3.jpg'
-import ParisImg from '@assets/images/cities/Paris/attractions/Tour_Eiffel/3.jpg'
-import NewYorkImg from '@assets/images/cities/New_York/attractions/Statue_of_Liberty/3.jpg'
-import RioDeJaneiroImg from '@assets/images/cities/Rio_de_Janeiro/Christ_the_Redeemer/2.jpg'
-
-export const citiesData: CityProps[] = [
+export const citiesData: CityCardProps[] = [
   
   { 
     id: 1,
-    image: LondonImg,
+    image: London_Img,
     title: 'Лондон',
     country: 'Великобритания',
     flag: flagImg.UK, 
@@ -19,7 +15,7 @@ export const citiesData: CityProps[] = [
 
   { 
     id: 2,
-    image: ParisImg,
+    image: Paris_Img,
     title: 'Париж',
     country: 'Франция',
     flag: flagImg.France,
@@ -28,7 +24,7 @@ export const citiesData: CityProps[] = [
 
   { 
     id: 3,
-    image: NewYorkImg,
+    image: New_York_Img,
     title: 'Нью-Йорк',
     country: 'США',
     flag: flagImg.USA,
@@ -37,7 +33,7 @@ export const citiesData: CityProps[] = [
 
   { 
     id: 4,
-    image: RioDeJaneiroImg,
+    image: Rio_de_Janeiro_Img,
     title: 'Рио-де-Жанейро',
     country: 'Бразилия',
     flag: flagImg.Brazil,

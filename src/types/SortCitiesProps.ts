@@ -1,5 +1,5 @@
-import { CityProps } from './CityProps'
+import { CityCardProps } from './CityCardProps'
 
 export interface SortCitiesProps {
-  sortCitiesData: CityProps[]
+  sortCitiesData: CityCardProps[]
 }

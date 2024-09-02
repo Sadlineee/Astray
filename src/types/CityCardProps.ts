@@ -1,4 +1,4 @@
-export interface CityProps {
+export interface CityCardProps {
   id: number
   image: string
   title: string
