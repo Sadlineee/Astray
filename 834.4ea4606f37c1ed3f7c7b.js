@@ -1,4 +1,4 @@
-"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[555],{457:(e,t,i)=>{i.d(t,{Ay:()=>c});var a=i(848),r=i(540),s=i(581),n=i(594);const o=s.Ay.div`
+"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[834],{457:(e,t,i)=>{i.d(t,{Ay:()=>c});var a=i(848),r=i(540),s=i(581),n=i(594);const o=s.Ay.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@
   @media ${s.w.media.small} {
     font-size: 0.8rem;
   }
-`,l=()=>(0,a.jsx)(n,{children:(0,a.jsx)(o,{children:"ASTRAY ©2024"})})},464:(e,t,i)=>{i.d(t,{Ay:()=>d});var a=i(848),r=i(559),s=i(976),n=i(581),o=i(594);const l=n.Ay.header`
+`,l=()=>(0,a.jsx)(n,{children:(0,a.jsx)(o,{children:"ASTRAY ©2024"})})},464:(e,t,i)=>{i.d(t,{Ay:()=>d});var a=i(848),r=i(197),s=i(976),n=i(581),o=i(594);const l=n.Ay.header`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -91,7 +91,7 @@
     height: 1.5rem;
     font-size: 1.5rem;
   }
-`,d=()=>(0,a.jsxs)(l,{children:[(0,a.jsx)(c,Object.assign({to:"/astray"},{children:"astray"})),(0,a.jsx)(m,Object.assign({to:"https://t.me/Sadlineee",target:"_blank"},{children:(0,a.jsx)(r.hFS,{})}))]})},555:(e,t,i)=>{i.r(t),i.d(t,{Circle:()=>k,CircleText:()=>L,MainBox:()=>b,MainLeftSide:()=>$,MainRightSide:()=>C,MainText:()=>z,MainTopSection:()=>v,default:()=>O});var a=i(848),r=i(540),s=i(464),n=i(264),o=i(581),l=i(594);const c=o.Ay.input`
+`,d=()=>(0,a.jsxs)(l,{children:[(0,a.jsx)(c,Object.assign({to:"/astray"},{children:"astray"})),(0,a.jsx)(m,Object.assign({to:"https://t.me/Sadlineee",target:"_blank"},{children:(0,a.jsx)(r.hFS,{})}))]})},834:(e,t,i)=>{i.r(t),i.d(t,{Circle:()=>k,CircleText:()=>L,MainBox:()=>b,MainLeftSide:()=>$,MainRightSide:()=>C,MainText:()=>z,MainTopSection:()=>v,default:()=>O});var a=i(848),r=i(540),s=i(464),n=i(264),o=i(581),l=i(594);const c=o.Ay.input`
   text-align: center;
   margin-top: 4rem;
   padding: 0.5rem;
@@ -284,4 +284,4 @@
   font-weight: 300;
   letter-spacing: 2.25px;
   fill: ${l.w.colors.primary};
-`,_=i.p+"src/assets/images/flags/UK.png",S=i.p+"src/assets/images/flags/France.png",M=i.p+"src/assets/images/flags/USA.png",N=i.p+"src/assets/images/flags/Brazil.png",E=[{id:1,image:i.p+"src/assets/images/cities/London/attractions/Palace_of_Westminster/3.jpg",title:"Лондон",country:"Великобритания",flag:_,description:"Сердце Великобритании: Биг-Бен, Тауэр, бульвары, дворцы и сумрачные аллеи в тумане."},{id:2,image:i.p+"src/assets/images/cities/Paris/attractions/Tour_Eiffel/3.jpg",title:"Париж",country:"Франция",flag:S,description:"Город любви, моды и искусства, знаменит Эйфелевой башней и Лувром."},{id:3,image:i.p+"src/assets/images/cities/New_York/attractions/Statue_of_Liberty/3.jpg",title:"Нью-Йорк",country:"США",flag:M,description:"Крупнейший город США с высокими небоскребами и разнообразной культурой."},{id:4,image:i.p+"src/assets/images/cities/Rio_de_Janeiro/Christ_the_Redeemer/2.jpg",title:"Рио-де-Жанейро",country:"Бразилия",flag:N,description:"Город с потрясающими пляжами, захватывающими карнавальными праздниками и горами."}],O=()=>{const[e,t]=(0,r.useState)(""),i=(0,r.useCallback)((e=>{t(e)}),[]),o=(0,r.useMemo)((()=>E.filter((t=>t.title.toLowerCase().includes(e.toLowerCase())||t.country.toLowerCase().includes(e.toLowerCase())))),[e]);return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(s.Ay,{}),(0,a.jsxs)(b,{children:[(0,a.jsxs)(v,{children:[(0,a.jsxs)($,{children:[(0,a.jsx)(z,{children:"Исследуйте, мечтайте, открывайте мир с новой стороны!"}),(0,a.jsx)(m,{searchValue:e,onSearchValueChange:i})]}),(0,a.jsx)(C,{children:(0,a.jsxs)(k,Object.assign({viewBox:"0 0 100 100"},{children:[(0,a.jsx)("path",{id:"text-path",d:"M20,50a30,30 0 1,1 60,0a30,30 0 1,1 -60,0",fill:"transparent"}),(0,a.jsx)(L,{children:(0,a.jsx)("textPath",Object.assign({href:"#text-path"},{children:"TRAVELING MEANS DEVELOPING"}))})]}))})]}),(0,a.jsx)(A,{sortCitiesData:o})]}),(0,a.jsx)(n.Ay,{})]})}}}]);
+`,_=i.p+"src/assets/images/flags/UK.png",S=i.p+"src/assets/images/flags/France.png",M=i.p+"src/assets/images/flags/USA.png",N=i.p+"src/assets/images/flags/Brazil.png",E=[{id:1,image:i.p+"src/assets/images/cities/London/attractions/Palace_of_Westminster/3.jpg",title:"Лондон",country:"Великобритания",flag:_,description:"Сердце Великобритании: Биг-Бен, Тауэр, бульвары, дворцы и сумрачные аллеи в тумане."},{id:2,image:i.p+"src/assets/images/cities/Paris/attractions/Tour_Eiffel/3.jpg",title:"Париж",country:"Франция",flag:S,description:"Город любви, моды и искусства, знаменит Эйфелевой башней и Лувром."},{id:3,image:i.p+"src/assets/images/cities/New_York/attractions/Statue_of_Liberty/3.jpg",title:"Нью-Йорк",country:"США",flag:M,description:"Крупнейший город США с высокими небоскребами и разнообразной культурой."},{id:4,image:i.p+"src/assets/images/cities/Rio_de_Janeiro/attractions/Christ_the_Redeemer/2.jpg",title:"Рио-де-Жанейро",country:"Бразилия",flag:N,description:"Город с потрясающими пляжами, захватывающими карнавальными праздниками и горами."}],O=()=>{const[e,t]=(0,r.useState)(""),i=(0,r.useCallback)((e=>{t(e)}),[]),o=(0,r.useMemo)((()=>E.filter((t=>t.title.toLowerCase().includes(e.toLowerCase())||t.country.toLowerCase().includes(e.toLowerCase())))),[e]);return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(s.Ay,{}),(0,a.jsxs)(b,{children:[(0,a.jsxs)(v,{children:[(0,a.jsxs)($,{children:[(0,a.jsx)(z,{children:"Исследуйте, мечтайте, открывайте мир с новой стороны!"}),(0,a.jsx)(m,{searchValue:e,onSearchValueChange:i})]}),(0,a.jsx)(C,{children:(0,a.jsxs)(k,Object.assign({viewBox:"0 0 100 100"},{children:[(0,a.jsx)("path",{id:"text-path",d:"M20,50a30,30 0 1,1 60,0a30,30 0 1,1 -60,0",fill:"transparent"}),(0,a.jsx)(L,{children:(0,a.jsx)("textPath",Object.assign({href:"#text-path"},{children:"TRAVELING MEANS DEVELOPING"}))})]}))})]}),(0,a.jsx)(A,{sortCitiesData:o})]}),(0,a.jsx)(n.Ay,{})]})}}}]);

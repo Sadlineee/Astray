@@ -48,7 +48,7 @@
   @media ${r.w.media.small} {
     font-size: 0.8rem;
   }
-`,m=()=>(0,n.jsx)(a,{children:(0,n.jsx)(s,{children:"ASTRAY ©2024"})})},464:(e,i,t)=>{t.d(i,{Ay:()=>c});var n=t(848),o=t(559),r=t(976),a=t(581),s=t(594);const m=a.Ay.header`
+`,m=()=>(0,n.jsx)(a,{children:(0,n.jsx)(s,{children:"ASTRAY ©2024"})})},464:(e,i,t)=>{t.d(i,{Ay:()=>c});var n=t(848),o=t(197),r=t(976),a=t(581),s=t(594);const m=a.Ay.header`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
