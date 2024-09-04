@@ -1,3 +1,2 @@
-// export { ChristTheRedeemerData } from './ChristTheRedeemerData'
-// export { CopacabanaBeachData } from './CopacabanaBeachData'
-export {}
+export { ChristTheRedeemerData } from './ChristTheRedeemerData'
+export { CopacabanaBeachData } from './CopacabanaBeachData'
