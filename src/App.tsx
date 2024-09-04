@@ -4,7 +4,12 @@ import GlobalStyles from '@styles/global'
 import ScrollToTop from '@components/ScrollToTop'
 import PageLoad from '@components/PageLoad'
 
-import { LondonAttractionsData, RioDeJaneiroAttractionsData } from '@data/cities'
+import { 
+  LondonAttractionsData,
+  ParisAttractionsData,  
+  NewYorkAttractionsData, 
+  RioDeJaneiroAttractionsData 
+} from '@data/cities'
 
 const Home = lazy(() => import('@views/Home'))
 const Main = lazy(() => import('@views/Main'))
@@ -18,6 +23,8 @@ const LazyLoad: React.FC<{ children: ReactNode }> = ({ children }) => (
 
 const cityRoutes = [
   { path: '/main/1', component: <City attractionsData={LondonAttractionsData} cityId={1} /> },
+  { path: '/main/2', component: <City attractionsData={ParisAttractionsData} cityId={2} /> },
+  { path: '/main/3', component: <City attractionsData={NewYorkAttractionsData} cityId={3} /> },
   { path: '/main/4', component: <City attractionsData={RioDeJaneiroAttractionsData} cityId={4} /> }
 ]
 
