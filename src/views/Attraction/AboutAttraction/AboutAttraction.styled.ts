@@ -50,7 +50,7 @@ export const AboutAttractionWebsite = styled(Link)`
   }
 `
 
-export const AboutAttractionSectionBox = styled.div`
+export const AboutAttractionDescriptionBox = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
@@ -62,7 +62,7 @@ export const AboutAttractionSectionBox = styled.div`
   }
 `
 
-export const AboutAttractionSectionTitle = styled.div`
+export const AboutAttractionDescriptionTitle = styled.div`
   font-size: 2rem;
   font-weight: 600;
   color: ${theme.colors.white};
@@ -72,7 +72,7 @@ export const AboutAttractionSectionTitle = styled.div`
   }
 `
 
-export const AboutAttractionSectionLine = styled.hr`
+export const AboutAttractionDescriptionLine = styled.hr`
   width: 5%;
   margin: 1.5rem 0;
   border: 2px solid ${theme.colors.primary};
@@ -85,7 +85,7 @@ export const AboutAttractionSectionLine = styled.hr`
   }
 `
 
-export const AboutAttractionSectionText = styled.p`
+export const AboutAttractionDescriptionText = styled.p`
   font-size: 1.25rem;
   font-weight: 300;
   color: ${theme.colors.white};

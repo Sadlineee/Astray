@@ -2,10 +2,10 @@ import React from 'react'
 import { 
   AboutAttractionAddress, 
   AboutAttractionBox, 
-  AboutAttractionSectionBox, 
-  AboutAttractionSectionLine, 
-  AboutAttractionSectionText, 
-  AboutAttractionSectionTitle, 
+  AboutAttractionDescriptionBox, 
+  AboutAttractionDescriptionLine, 
+  AboutAttractionDescriptionText, 
+  AboutAttractionDescriptionTitle, 
   AboutAttractionTitle, 
   AboutAttractionWebsite 
 } from './AboutAttraction.styled'
@@ -27,11 +27,11 @@ const AboutAttraction: React.FC<{ el: AboutAttractionProps }> = ({ el }) => {
         <AboutAttractionWebsite to={el.link}>Visit official website</AboutAttractionWebsite> 
       )}
       {sections.map(({ title, content }) => (
-        <AboutAttractionSectionBox key={title}>
-          <AboutAttractionSectionTitle>{title}</AboutAttractionSectionTitle> 
-          <AboutAttractionSectionLine /> 
-          <AboutAttractionSectionText>{content}</AboutAttractionSectionText> 
-        </AboutAttractionSectionBox>
+        <AboutAttractionDescriptionBox key={title}>
+          <AboutAttractionDescriptionTitle>{title}</AboutAttractionDescriptionTitle> 
+          <AboutAttractionDescriptionLine /> 
+          <AboutAttractionDescriptionText>{content}</AboutAttractionDescriptionText> 
+        </AboutAttractionDescriptionBox>
       ))}
     </AboutAttractionBox>
   )
