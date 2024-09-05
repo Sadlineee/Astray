@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const AttractionBox = styled.main`
+  overflow: hidden;
   animation: mount 0.75s ease-out;
 
   @keyframes mount {
