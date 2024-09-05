@@ -15,7 +15,11 @@ import {
   BuckinghamPalaceData,
   TowerBridgeData, 
   BritishMuseumData,
-  PalaceOfWestminsterData
+  PalaceOfWestminsterData,
+  TowerOfLondonData,
+  HydeParkData,
+  LondonEyeData,
+  NationalGalleryData
 } from '@data/cities/London/attractions'
 
 import { 
@@ -62,6 +66,10 @@ const attractionRoutes = [
   { path: '/main/1/2', component: <Attraction data={TowerBridgeData} /> },
   { path: '/main/1/3', component: <Attraction data={BritishMuseumData} /> },
   { path: '/main/1/4', component: <Attraction data={PalaceOfWestminsterData} /> },
+  { path: '/main/1/5', component: <Attraction data={TowerOfLondonData} /> },
+  { path: '/main/1/6', component: <Attraction data={HydeParkData} /> },
+  { path: '/main/1/7', component: <Attraction data={LondonEyeData} /> },
+  { path: '/main/1/8', component: <Attraction data={NationalGalleryData} /> },
 
   { path: '/main/2/1', component: <Attraction data={TourEiffelData} /> },
   { path: '/main/2/2', component: <Attraction data={LouvreData} /> },
