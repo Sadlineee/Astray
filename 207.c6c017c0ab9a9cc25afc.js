@@ -48,7 +48,7 @@
   @media ${r.w.media.small} {
     font-size: 0.8rem;
   }
-`,l=()=>(0,a.jsx)(s,{children:(0,a.jsx)(o,{children:"ASTRAY ©2024"})})},464:(e,i,t)=>{t.d(i,{Ay:()=>d});var a=t(848),n=t(197),r=t(976),s=t(581),o=t(594);const l=s.Ay.header`
+`,l=()=>(0,a.jsx)(s,{children:(0,a.jsx)(o,{children:"ASTRAY ©2024"})})},464:(e,i,t)=>{t.d(i,{Ay:()=>c});var a=t(848),n=t(197),r=t(976),s=t(581),o=t(594);const l=s.Ay.header`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -70,7 +70,7 @@
   @media ${o.w.media.small} {
     font-size: 2rem;
   }
-`,c=(0,s.Ay)(r.N_)`
+`,d=(0,s.Ay)(r.N_)`
   aspect-ratio: 1 / 1;
   height: 2rem;
   text-decoration: none;
@@ -91,7 +91,7 @@
     height: 1.5rem;
     font-size: 1.5rem;
   }
-`,d=()=>(0,a.jsxs)(l,{children:[(0,a.jsx)(m,Object.assign({to:"/astray"},{children:"astray"})),(0,a.jsx)(c,Object.assign({to:"https://t.me/Sadlineee",target:"_blank"},{children:(0,a.jsx)(n.hFS,{})}))]})},207:(e,i,t)=>{t.r(i),t.d(i,{AttractionBox:()=>v,default:()=>b});var a=t(848),n=t(464),r=t(264),s=t(976),o=t(581),l=t(594);const m=o.Ay.div`
+`,c=()=>(0,a.jsxs)(l,{children:[(0,a.jsx)(m,Object.assign({to:"/astray"},{children:"astray"})),(0,a.jsx)(d,Object.assign({to:"https://t.me/Sadlineee",target:"_blank"},{children:(0,a.jsx)(n.hFS,{})}))]})},207:(e,i,t)=>{t.r(i),t.d(i,{AttractionBox:()=>v,default:()=>b});var a=t(848),n=t(464),r=t(264),s=t(976),o=t(581),l=t(594);const m=o.Ay.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,7 +100,7 @@
   @media ${l.w.media.small} {
     padding: 0 5vw;
   }
-`,c=o.Ay.span`
+`,d=o.Ay.span`
   margin: 3rem 0;
   text-align: center;
   font-size: 6rem;
@@ -111,7 +111,7 @@
     margin: 2rem 0;
     font-size: 2.75rem;
   }
-`,d=o.Ay.address`
+`,c=o.Ay.address`
   margin-bottom: 0.5rem;
   text-align: center;
   font-size: 1.25rem;
@@ -168,7 +168,7 @@
   @media ${l.w.media.small} {
     font-size: 1rem;
   }
-`,y=({el:e})=>{const i=[{title:"Описание",content:e.description},{title:"История",content:e.history},{title:"Архитектура",content:e.view},{title:"Дополнительно",content:e.other}];return(0,a.jsxs)(m,{children:[(0,a.jsx)(c,{children:e.title}),(0,a.jsx)(d,{children:e.address}),e.link&&(0,a.jsx)(h,Object.assign({to:e.link},{children:"Visit official website"})),i.map((({title:e,content:i})=>(0,a.jsxs)(f,{children:[(0,a.jsx)(x,{children:e}),(0,a.jsx)(p,{}),(0,a.jsx)(w,{children:i})]},e)))]},e.id)};var g=t(457);const j=o.Ay.div`
+`,y=({el:e})=>{const i=[{title:"Описание",content:e.description},{title:"История",content:e.history},{title:"Архитектура",content:e.view},{title:"Дополнительно",content:e.other}];return(0,a.jsxs)(m,{children:[(0,a.jsx)(d,{children:e.title}),(0,a.jsx)(c,{children:e.address}),e.link&&(0,a.jsx)(h,Object.assign({to:e.link},{children:"Visit official website"})),i.map((({title:e,content:i})=>(0,a.jsxs)(f,{children:[(0,a.jsx)(x,{children:e}),(0,a.jsx)(p,{}),(0,a.jsx)(w,{children:i})]},e)))]},e.id)};var g=t(457);const j=o.Ay.div`
   display: flex;
   flex-direction: row;
   width: calc(50vh * 10);
@@ -203,6 +203,7 @@
     height: 35vh;
   }
 `,$=({el:e})=>(0,a.jsx)(j,{children:[...e.image,...e.image].map(((i,t)=>(0,a.jsx)(A,{children:(0,a.jsx)(g.Ay,{src:i,alt:"attraction"})},`${e.id}-${t}`)))},e.id),v=o.Ay.main`
+  overflow: hidden;
   animation: mount 0.75s ease-out;
 
   @keyframes mount {
