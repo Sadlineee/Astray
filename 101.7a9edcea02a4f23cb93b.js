@@ -1,4 +1,4 @@
-"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[154],{457:(e,t,i)=>{i.d(t,{Ay:()=>c});var a=i(848),r=i(540),n=i(581),o=i(594);const s=n.Ay.div`
+"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[101],{457:(e,t,i)=>{i.d(t,{Ay:()=>m});var a=i(848),r=i(540),n=i(581),o=i(594);const s=n.Ay.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@
   object-fit: fill;
   height: 100%;
   width: 100%;
-`,c=r.memo((({src:e,alt:t})=>{const[i,n]=(0,r.useState)(!0);return(0,a.jsxs)(a.Fragment,{children:[i&&(0,a.jsx)(s,{}),(0,a.jsx)(l,{src:e,alt:t,onLoad:()=>{n(!1)},style:{display:i?"none":"block"}})]})}))},264:(e,t,i)=>{i.d(t,{Ay:()=>l});var a=i(848),r=i(581),n=i(594);const o=r.Ay.footer`
+`,m=r.memo((({src:e,alt:t})=>{const[i,n]=(0,r.useState)(!0);return(0,a.jsxs)(a.Fragment,{children:[i&&(0,a.jsx)(s,{}),(0,a.jsx)(l,{src:e,alt:t,onLoad:()=>{n(!1)},style:{display:i?"none":"block"}})]})}))},264:(e,t,i)=>{i.d(t,{Ay:()=>l});var a=i(848),r=i(581),n=i(594);const o=r.Ay.footer`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@
     padding: 0 5vw;
     height: 4rem;
   }
-`,c=(0,o.Ay)(n.N_)`
+`,m=(0,o.Ay)(n.N_)`
   text-decoration: none;
   font-family: ${s.w.fonts.secondary};
   font-size: 2.5rem;
@@ -70,7 +70,7 @@
   @media ${s.w.media.small} {
     font-size: 2rem;
   }
-`,m=(0,o.Ay)(n.N_)`
+`,c=(0,o.Ay)(n.N_)`
   aspect-ratio: 1 / 1;
   height: 2rem;
   text-decoration: none;
@@ -91,7 +91,7 @@
     height: 1.5rem;
     font-size: 1.5rem;
   }
-`,d=()=>(0,a.jsxs)(l,{children:[(0,a.jsx)(c,Object.assign({to:"/astray"},{children:"astray"})),(0,a.jsx)(m,Object.assign({to:"https://t.me/Sadlineee",target:"_blank"},{children:(0,a.jsx)(r.hFS,{})}))]})},154:(e,t,i)=>{i.r(t),i.d(t,{Circle:()=>k,CircleText:()=>L,MainBox:()=>b,MainLeftSide:()=>$,MainRightSide:()=>C,MainText:()=>z,MainTopSection:()=>v,default:()=>F});var a=i(848),r=i(540),n=i(464),o=i(264),s=i(581),l=i(594);const c=s.Ay.input`
+`,d=()=>(0,a.jsxs)(l,{children:[(0,a.jsx)(m,Object.assign({to:"/astray"},{children:"astray"})),(0,a.jsx)(c,Object.assign({to:"https://t.me/Sadlineee",target:"_blank"},{children:(0,a.jsx)(r.hFS,{})}))]})},101:(e,t,i)=>{i.r(t),i.d(t,{Circle:()=>k,CircleText:()=>L,MainBox:()=>b,MainLeftSide:()=>$,MainRightSide:()=>C,MainText:()=>z,MainTopSection:()=>v,default:()=>_});var a=i(848),r=i(540),n=i(464),o=i(264),s=i(581),l=i(594);const m=s.Ay.input`
   text-align: center;
   margin-top: 4rem;
   padding: 0.5rem;
@@ -123,7 +123,7 @@
     width: 15rem;
     font-size: 1rem;
   }
-`,m=({searchValue:e,onSearchValueChange:t})=>(0,a.jsx)(c,{type:"text",maxLength:40,placeholder:"Введите город или страну",value:e,onChange:e=>{t(e.target.value)}});var d=i(457),h=i(976);const p=s.Ay.div`
+`,c=({searchValue:e,onSearchValueChange:t})=>(0,a.jsx)(m,{type:"text",maxLength:40,placeholder:"Введите город или страну",value:e,onChange:e=>{t(e.target.value)}});var d=i(457),h=i(976);const p=s.Ay.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
@@ -284,4 +284,4 @@
   font-weight: 300;
   letter-spacing: 2.25px;
   fill: ${l.w.colors.primary};
-`,S=i.p+"src/assets/images/flags/UK.png",M=i.p+"src/assets/images/flags/France.png",N=i.p+"src/assets/images/flags/USA.png",O=i.p+"src/assets/images/flags/Brazil.png",V=i.p+"src/assets/images/cities/London/attractions/Palace_of_Westminster/3.jpg";var _=i(555),E=i(12),T=i(123);const D=[{id:1,image:V,title:"Лондон",country:"Великобритания",flag:S,description:"Сердце Великобритании: Биг-Бен, Тауэр, бульвары, дворцы и сумрачные аллеи в тумане."},{id:2,image:_.A,title:"Париж",country:"Франция",flag:M,description:"Город любви, моды и искусства, знаменит Эйфелевой башней и Лувром."},{id:3,image:E.A,title:"Нью-Йорк",country:"США",flag:N,description:"Крупнейший город США с высокими небоскребами и разнообразной культурой."},{id:4,image:T.A,title:"Рио-де-Жанейро",country:"Бразилия",flag:O,description:"Город с потрясающими пляжами, захватывающими карнавальными праздниками и горами."}],F=()=>{const[e,t]=(0,r.useState)(""),i=(0,r.useCallback)((e=>{t(e)}),[]),s=(0,r.useMemo)((()=>D.filter((t=>t.title.toLowerCase().includes(e.toLowerCase())||t.country.toLowerCase().includes(e.toLowerCase())))),[e]);return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.Ay,{}),(0,a.jsxs)(b,{children:[(0,a.jsxs)(v,{children:[(0,a.jsxs)($,{children:[(0,a.jsx)(z,{children:"Исследуйте, мечтайте, открывайте мир с новой стороны!"}),(0,a.jsx)(m,{searchValue:e,onSearchValueChange:i})]}),(0,a.jsx)(C,{children:(0,a.jsxs)(k,Object.assign({viewBox:"0 0 100 100"},{children:[(0,a.jsx)("path",{id:"text-path",d:"M20,50a30,30 0 1,1 60,0a30,30 0 1,1 -60,0",fill:"transparent"}),(0,a.jsx)(L,{children:(0,a.jsx)("textPath",Object.assign({href:"#text-path"},{children:"TRAVELING MEANS DEVELOPING"}))})]}))})]}),(0,a.jsx)(A,{sortCitiesData:s})]}),(0,a.jsx)(o.Ay,{})]})}}}]);
+`,S=i.p+"src/assets/images/flags/UK.png",M=i.p+"src/assets/images/flags/France.png",N=i.p+"src/assets/images/flags/USA.png",O=i.p+"src/assets/images/flags/Brazil.png";var V=i(748),E=i(555),T=i(12),D=i(123);const F=[{id:1,image:V.A,title:"Лондон",country:"Великобритания",flag:S,description:"Сердце Великобритании: Биг-Бен, Тауэр, бульвары, дворцы и сумрачные аллеи в тумане."},{id:2,image:E.A,title:"Париж",country:"Франция",flag:M,description:"Город любви, моды и искусства, знаменит Эйфелевой башней и Лувром."},{id:3,image:T.A,title:"Нью-Йорк",country:"США",flag:N,description:"Крупнейший город США с высокими небоскребами и разнообразной культурой."},{id:4,image:D.A,title:"Рио-де-Жанейро",country:"Бразилия",flag:O,description:"Город с потрясающими пляжами, захватывающими карнавальными праздниками и горами."}],_=()=>{const[e,t]=(0,r.useState)(""),i=(0,r.useCallback)((e=>{t(e)}),[]),s=(0,r.useMemo)((()=>F.filter((t=>t.title.toLowerCase().includes(e.toLowerCase())||t.country.toLowerCase().includes(e.toLowerCase())))),[e]);return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.Ay,{}),(0,a.jsxs)(b,{children:[(0,a.jsxs)(v,{children:[(0,a.jsxs)($,{children:[(0,a.jsx)(z,{children:"Исследуйте, мечтайте, открывайте мир с новой стороны!"}),(0,a.jsx)(c,{searchValue:e,onSearchValueChange:i})]}),(0,a.jsx)(C,{children:(0,a.jsxs)(k,Object.assign({viewBox:"0 0 100 100"},{children:[(0,a.jsx)("path",{id:"text-path",d:"M20,50a30,30 0 1,1 60,0a30,30 0 1,1 -60,0",fill:"transparent"}),(0,a.jsx)(L,{children:(0,a.jsx)("textPath",Object.assign({href:"#text-path"},{children:"TRAVELING MEANS DEVELOPING"}))})]}))})]}),(0,a.jsx)(A,{sortCitiesData:s})]}),(0,a.jsx)(o.Ay,{})]})}}}]);
