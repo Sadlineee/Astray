@@ -134,7 +134,7 @@
 `,f=o.Ay.div`
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-bottom: 1.25rem;
   padding: 3rem;
   box-shadow: -5px 5px 0px rgba(33, 33, 33, 1), -10px 10px 0px rgba(33, 33, 33, 0.7), -15px 15px 0px rgba(33, 33, 33, 0.4), -20px 20px 0px rgba(33, 33, 33, 0.1);
 
@@ -149,7 +149,7 @@
   @media ${l.w.media.small} {
     font-size: 1.5rem;
   }
-`,p=o.Ay.hr`
+`,w=o.Ay.hr`
   width: 5%;
   margin: 1.5rem 0;
   border: 2px solid ${l.w.colors.primary};
@@ -160,7 +160,7 @@
     margin: 1rem 0;
     border: 1px solid ${l.w.colors.primary};
   }
-`,w=o.Ay.p`
+`,p=o.Ay.p`
   font-size: 1.25rem;
   font-weight: 300;
   color: ${l.w.colors.white};
@@ -168,7 +168,7 @@
   @media ${l.w.media.small} {
     font-size: 1rem;
   }
-`,y=({el:e})=>{const i=[{title:"Описание",content:e.description},{title:"История",content:e.history},{title:"Архитектура",content:e.view},{title:"Дополнительно",content:e.other}];return(0,a.jsxs)(m,{children:[(0,a.jsx)(d,{children:e.title}),(0,a.jsx)(c,{children:e.address}),e.link&&(0,a.jsx)(h,Object.assign({to:e.link},{children:"Visit official website"})),i.map((({title:e,content:i})=>(0,a.jsxs)(f,{children:[(0,a.jsx)(x,{children:e}),(0,a.jsx)(p,{}),(0,a.jsx)(w,{children:i})]},e)))]},e.id)};var g=t(457);const j=o.Ay.div`
+`,y=({el:e})=>{const i=[{title:"Описание",content:e.description},{title:"История",content:e.history},{title:"Архитектура",content:e.view},{title:"Дополнительно",content:e.other}];return(0,a.jsxs)(m,{children:[(0,a.jsx)(d,{children:e.title}),(0,a.jsx)(c,{children:e.address}),e.link&&(0,a.jsx)(h,Object.assign({to:e.link},{children:"Visit official website"})),i.map((({title:e,content:i})=>(0,a.jsxs)(f,{children:[(0,a.jsx)(x,{children:e}),(0,a.jsx)(w,{}),(0,a.jsx)(p,{children:i})]},e)))]},e.id)};var g=t(457);const j=o.Ay.div`
   display: flex;
   flex-direction: row;
   width: calc(50vh * 10);
