@@ -19,6 +19,15 @@ import {
 } from '@data/cities/Paris/attractions'
 
 import { 
+  StatueOfLibertyData, 
+  TimesSquareData,
+  BrooklynBridgeData,
+  CentralParkData,
+  EmpireStateBuildingData,
+  GrandCentralTerminalData
+} from '@data/cities/New_York/attractions'
+
+import { 
   ChristTheRedeemerData, 
   CopacabanaBeachData 
 } from '@data/cities/Rio_de_Janeiro/attractions'
@@ -46,6 +55,13 @@ const attractionRoutes = [
   { path: '/main/2/2', component: <Attraction data={LouvreData} /> },
   { path: '/main/2/3', component: <Attraction data={ArcDeTriompheData} /> },
   { path: '/main/2/4', component: <Attraction data={SainteChapelleData} /> },
+
+  { path: '/main/3/1', component: <Attraction data={StatueOfLibertyData} /> },
+  { path: '/main/3/2', component: <Attraction data={TimesSquareData} /> },
+  { path: '/main/3/3', component: <Attraction data={BrooklynBridgeData} /> },
+  { path: '/main/3/4', component: <Attraction data={CentralParkData} /> },
+  { path: '/main/3/5', component: <Attraction data={EmpireStateBuildingData} /> },
+  { path: '/main/3/6', component: <Attraction data={GrandCentralTerminalData} /> },
 
   { path: '/main/4/1', component: <Attraction data={ChristTheRedeemerData} /> },
   { path: '/main/4/2', component: <Attraction data={CopacabanaBeachData} /> }

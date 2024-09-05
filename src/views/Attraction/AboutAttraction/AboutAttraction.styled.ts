@@ -53,7 +53,7 @@ export const AboutAttractionWebsite = styled(Link)`
 export const AboutAttractionDescriptionBox = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-bottom: 1.25rem;
   padding: 3rem;
   box-shadow: -5px 5px 0px rgba(33, 33, 33, 1), -10px 10px 0px rgba(33, 33, 33, 0.7), -15px 15px 0px rgba(33, 33, 33, 0.4), -20px 20px 0px rgba(33, 33, 33, 0.1);
 
