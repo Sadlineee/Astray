@@ -12,6 +12,13 @@ import {
 } from '@data/cities'
 
 import { 
+  BuckinghamPalaceData,
+  TowerBridgeData, 
+  BritishMuseumData,
+  PalaceOfWestminsterData
+} from '@data/cities/London/attractions'
+
+import { 
   TourEiffelData,
   LouvreData,  
   ArcDeTriompheData, 
@@ -51,6 +58,11 @@ const cityRoutes = [
 ]
 
 const attractionRoutes = [
+  { path: '/main/1/1', component: <Attraction data={BuckinghamPalaceData} /> },
+  { path: '/main/1/2', component: <Attraction data={TowerBridgeData} /> },
+  { path: '/main/1/3', component: <Attraction data={BritishMuseumData} /> },
+  { path: '/main/1/4', component: <Attraction data={PalaceOfWestminsterData} /> },
+
   { path: '/main/2/1', component: <Attraction data={TourEiffelData} /> },
   { path: '/main/2/2', component: <Attraction data={LouvreData} /> },
   { path: '/main/2/3', component: <Attraction data={ArcDeTriompheData} /> },
