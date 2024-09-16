@@ -5,7 +5,7 @@ export const GrandCentralTerminalData: AboutAttractionProps[] = [
 
   { 
     id: 1,
-    title: 'Grand Central Terminal',
+    title: 'Центральный вокзал',
     address: '89 East 42nd Street Manhattan, New York City',
     link: 'https://grandcentralterminal.com',
     image: [GrandCentralTerminalImg.Grand_Central_Terminal_1_Img, GrandCentralTerminalImg.Grand_Central_Terminal_2_Img, GrandCentralTerminalImg.Grand_Central_Terminal_3_Img, GrandCentralTerminalImg.Grand_Central_Terminal_4_Img, GrandCentralTerminalImg.Grand_Central_Terminal_5_Img],

@@ -5,7 +5,7 @@ export const BrooklynBridgeData: AboutAttractionProps[] = [
 
   { 
     id: 1,
-    title: 'Brooklyn Bridge',
+    title: 'Бруклинский мост',
     address: 'Brooklyn Bridge, New York, NY 10038',
     link: 'https://www.nyc.gov/html/dot/html/infrastructure/brooklyn-bridge.shtml',
     image: [BrooklynBridgeImg.Brooklyn_Bridge_1_Img, BrooklynBridgeImg.Brooklyn_Bridge_2_Img, BrooklynBridgeImg.Brooklyn_Bridge_3_Img, BrooklynBridgeImg.Brooklyn_Bridge_4_Img, BrooklynBridgeImg.Brooklyn_Bridge_5_Img],

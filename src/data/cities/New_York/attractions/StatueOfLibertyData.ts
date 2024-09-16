@@ -5,7 +5,7 @@ export const StatueOfLibertyData: AboutAttractionProps[] = [
 
   { 
     id: 1,
-    title: 'Statue of Liberty',
+    title: 'Стaтуя Свободы',
     address: 'New York, NY 10004',
     link: 'https://www.nps.gov/stli/index.htm',
     image: [StatueOfLibertyImg.Statue_of_Liberty_1_Img, StatueOfLibertyImg.Statue_of_Liberty_2_Img, StatueOfLibertyImg.Statue_of_Liberty_3_Img, StatueOfLibertyImg.Statue_of_Liberty_4_Img, StatueOfLibertyImg.Statue_of_Liberty_5_Img],

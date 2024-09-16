@@ -5,7 +5,7 @@ export const NationalGalleryData: AboutAttractionProps[] = [
 
   { 
     id: 1,
-    title: 'National Gallery',
+    title: 'Национальная галерея',
     address: 'Trafalgar Square, London WC2N 5DN',
     link: 'https://www.nationalgallery.org.uk',
     image: [NationalGalleryImg.National_Gallery_1_Img, NationalGalleryImg.National_Gallery_2_Img, NationalGalleryImg.National_Gallery_3_Img, NationalGalleryImg.National_Gallery_4_Img, NationalGalleryImg.National_Gallery_5_Img],

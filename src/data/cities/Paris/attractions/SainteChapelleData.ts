@@ -5,7 +5,7 @@ export const SainteChapelleData: AboutAttractionProps[] = [
 
   { 
     id: 1,
-    title: 'Sainte-Chapelle',
+    title: 'Сент-Шапель',
     address: '10 Bd du Palais, 75001 Paris',
     link: 'https://www.sainte-chapelle.fr',
     image: [SainteChapelleImg.Sainte_Chapelle_1_Img, SainteChapelleImg.Sainte_Chapelle_2_Img, SainteChapelleImg.Sainte_Chapelle_3_Img, SainteChapelleImg.Sainte_Chapelle_4_Img, SainteChapelleImg.Sainte_Chapelle_5_Img],

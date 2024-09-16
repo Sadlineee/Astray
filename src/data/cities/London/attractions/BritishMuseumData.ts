@@ -5,7 +5,7 @@ export const BritishMuseumData: AboutAttractionProps[] = [
 
   { 
     id: 1,
-    title: 'British Museum',
+    title: 'Британский музей',
     address: 'Great Russell Street London WC1B 3DG',
     link: 'https://www.britishmuseum.org',
     image: [BritishMuseumImg.British_Museum_1_Img, BritishMuseumImg.British_Museum_2_Img, BritishMuseumImg.British_Museum_3_Img, BritishMuseumImg.British_Museum_4_Img, BritishMuseumImg.British_Museum_5_Img],

@@ -5,7 +5,7 @@ export const CentralParkData: AboutAttractionProps[] = [
 
   { 
     id: 1,
-    title: 'Central Park',
+    title: 'Центральный парк',
     address: '59th 110th St · Manhattan, NY 10019',
     link: 'https://www.centralparknyc.org',
     image: [CentralParkImg.Central_Park_1_Img, CentralParkImg.Central_Park_2_Img, CentralParkImg.Central_Park_3_Img, CentralParkImg.Central_Park_4_Img, CentralParkImg.Central_Park_5_Img],

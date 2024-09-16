@@ -5,7 +5,7 @@ export const ArcDeTriompheData: AboutAttractionProps[] = [
   
   { 
     id: 1,
-    title: 'Arc de Triomphe',
+    title: 'Триумфальная арка',
     address: 'Pl. Charles de Gaulle, 75008 Paris, France',
     link: 'https://www.paris-arc-de-triomphe.fr/en',
     image: [ArcDeTriompheImg.Arc_de_Triomphe_1_Img, ArcDeTriompheImg.Arc_de_Triomphe_2_Img, ArcDeTriompheImg.Arc_de_Triomphe_3_Img, ArcDeTriompheImg.Arc_de_Triomphe_4_Img, ArcDeTriompheImg.Arc_de_Triomphe_5_Img],

@@ -5,7 +5,7 @@ export const TowerOfLondonData: AboutAttractionProps[] = [
     
   { 
     id: 1,
-    title: 'Tower of London',
+    title: 'Лондонский Тауэр',
     address: 'The Tower of London, London, England EC3N 4AB',
     link: 'https://www.hrp.org.uk/tower-of-london/#gs.abwfru',
     image: [TowerOfLondonImg.Tower_of_London_1_Img, TowerOfLondonImg.Tower_of_London_2_Img, TowerOfLondonImg.Tower_of_London_3_Img, TowerOfLondonImg.Tower_of_London_4_Img, TowerOfLondonImg.Tower_of_London_5_Img],

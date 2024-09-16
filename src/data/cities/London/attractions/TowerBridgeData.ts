@@ -5,7 +5,7 @@ export const TowerBridgeData: AboutAttractionProps[] = [
 
   { 
     id: 1,
-    title: 'Tower Bridge',
+    title: 'Тауэрский мост',
     address: 'Tower Bridge Rd, London SE1 2UP',
     link: 'https://www.towerbridge.org.uk',
     image: [TowerBridgeImg.Tower_Bridge_1_Img, TowerBridgeImg.Tower_Bridge_2_Img, TowerBridgeImg.Tower_Bridge_3_Img, TowerBridgeImg.Tower_Bridge_4_Img, TowerBridgeImg.Tower_Bridge_5_Img],

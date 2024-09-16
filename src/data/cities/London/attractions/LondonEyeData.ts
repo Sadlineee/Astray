@@ -5,7 +5,7 @@ export const LondonEyeData: AboutAttractionProps[] = [
   
   { 
     id: 1,
-    title: 'London Eye',
+    title: 'Лондонский глаз',
     address: 'Riverside Building, County Hall, London SE1 7PB',
     link: 'https://www.londoneye.com',
     image: [LondonEyeImg.London_Eye_1_Img, LondonEyeImg.London_Eye_2_Img, LondonEyeImg.London_Eye_3_Img, LondonEyeImg.London_Eye_4_Img, LondonEyeImg.London_Eye_5_Img],

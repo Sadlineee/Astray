@@ -5,7 +5,7 @@ export const CopacabanaBeachData: AboutAttractionProps[] = [
   
   { 
     id: 1,
-    title: 'Copacabana Beach',
+    title: 'Копакабана',
     address: 'Praia de Copacabana, Copacabana, Rio de Janeiro - RJ',
     image: [CopacabanaBeachImg.Copacabana_Beach_1_Img, CopacabanaBeachImg.Copacabana_Beach_2_Img, CopacabanaBeachImg.Copacabana_Beach_3_Img, CopacabanaBeachImg.Copacabana_Beach_4_Img, CopacabanaBeachImg.Copacabana_Beach_5_Img],
     description: 'Копакабана — одно из самых известных мест Рио-де-Жанейро, протянувшееся вдоль побережья Атлантического океана. Он славится золотистым песком, яркими пляжными будками и живой атмосферой. Здесь всегда многолюдно: туристы и местные жители наслаждаются солнечными днями, играют в волейбол и футбол. Вечером пляж превращается в оживленное место для прогулок и наслаждения закатами. Копакабана также известна своими культурными событиями и праздниками, включая знаменитый Новый год, когда тысячи людей собираются на пляже для празднования.',

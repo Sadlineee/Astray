@@ -5,7 +5,7 @@ export const HydeParkData: AboutAttractionProps[] = [
   
   { 
     id: 1,
-    title: 'Hyde Park',
+    title: 'Гайд-парк',
     address: 'Hyde Park, London W2 2UH',
     link: 'https://www.royalparks.org.uk/visit/parks/hyde-park',
     image: [HydeParkImg.Hyde_Park_1_Img, HydeParkImg.Hyde_Park_2_Img, HydeParkImg.Hyde_Park_3_Img, HydeParkImg.Hyde_Park_4_Img, HydeParkImg.Hyde_Park_5_Img],

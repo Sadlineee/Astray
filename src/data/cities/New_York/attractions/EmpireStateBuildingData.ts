@@ -5,7 +5,7 @@ export const EmpireStateBuildingData: AboutAttractionProps[] = [
 
   { 
     id: 1,
-    title: 'Empire State Building',
+    title: 'Эмпайр-стейт-билдинг',
     address: '20 W 34th St., New York, NY 10001',
     link: 'https://www.esbnyc.com',
     image: [EmpireStateBuildingImg.Empire_State_Building_1_Img, EmpireStateBuildingImg.Empire_State_Building_2_Img, EmpireStateBuildingImg.Empire_State_Building_3_Img, EmpireStateBuildingImg.Empire_State_Building_4_Img, EmpireStateBuildingImg.Empire_State_Building_5_Img],

@@ -5,7 +5,7 @@ export const BuckinghamPalaceData: AboutAttractionProps[] = [
   
   { 
     id: 1,
-    title: 'Buckingham Palace',
+    title: 'Букингемский дворец',
     address: 'Buckingham Palace, London SW1A 1AA',
     link: 'https://www.rct.uk/visit/buckingham-palace',
     image: [BuckinghamPalaceImg.Buckingham_Palace_1_Img, BuckinghamPalaceImg.Buckingham_Palace_2_Img, BuckinghamPalaceImg.Buckingham_Palace_3_Img, BuckinghamPalaceImg.Buckingham_Palace_4_Img, BuckinghamPalaceImg.Buckingham_Palace_5_Img],

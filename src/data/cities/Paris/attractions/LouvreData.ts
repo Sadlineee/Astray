@@ -5,7 +5,7 @@ export const LouvreData: AboutAttractionProps[] = [
 
   { 
     id: 1,
-    title: 'Musée du Louvre',
+    title: 'Лувр',
     address: 'Louvre Museum, 93 Rue de Rivoli, 75001 Paris. France',
     link: 'https://www.louvre.fr/en/visit/map-entrances-directions',
     image: [LouvreImg.Louvre_1_Img, LouvreImg.Louvre_2_Img, LouvreImg.Louvre_3_Img, LouvreImg.Louvre_4_Img, LouvreImg.Louvre_5_Img],

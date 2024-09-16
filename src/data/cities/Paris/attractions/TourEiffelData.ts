@@ -5,7 +5,7 @@ export const TourEiffelData: AboutAttractionProps[] = [
   
   { 
     id: 1,
-    title: 'Tour Eiffel',
+    title: 'Эйфелева башня',
     address: 'Av. Gustave Eiffel, 75007 Paris, France',
     link: 'https://www.toureiffel.paris/fr',
     image: [TourEiffelImg.Tour_Eiffel_1_Img, TourEiffelImg.Tour_Eiffel_2_Img, TourEiffelImg.Tour_Eiffel_3_Img, TourEiffelImg.Tour_Eiffel_4_Img, TourEiffelImg.Tour_Eiffel_5_Img],

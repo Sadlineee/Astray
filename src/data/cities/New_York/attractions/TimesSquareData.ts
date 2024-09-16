@@ -5,7 +5,7 @@ export const TimesSquareData: AboutAttractionProps[] = [
 
   { 
     id: 1,
-    title: 'Times Square',
+    title: 'Таймс-сквер',
     address: '1560 Broadway Suite 1001. New York, NY 10036',
     link: 'https://www.timessquarenyc.org',
     image: [TimesSquareImg.Times_Square_1_Img, TimesSquareImg.Times_Square_2_Img, TimesSquareImg.Times_Square_3_Img, TimesSquareImg.Times_Square_4_Img, TimesSquareImg.Times_Square_5_Img],

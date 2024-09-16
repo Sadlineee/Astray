@@ -5,7 +5,7 @@ export const PalaceOfWestminsterData: AboutAttractionProps[] = [
 
   { 
     id: 1,
-    title: 'Palace of Westminster',
+    title: 'Вестминстерский дворец',
     address: 'Parliament Square, Westminster, London, SW1A 0AA',
     link: 'https://www.parliament.uk',
     image: [PalaceOfWestminsterImg.Palace_of_Westminster_1_Img, PalaceOfWestminsterImg.Palace_of_Westminster_2_Img, PalaceOfWestminsterImg.Palace_of_Westminster_3_Img, PalaceOfWestminsterImg.Palace_of_Westminster_4_Img, PalaceOfWestminsterImg.Palace_of_Westminster_5_Img],

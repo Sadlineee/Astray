@@ -5,7 +5,7 @@ export const ChristTheRedeemerData: AboutAttractionProps[] = [
   
   { 
     id: 1,
-    title: 'Christ the Redeemer',
+    title: 'Статуя Христа-Искупителя',
     address: 'Parque Nacional da Tijuca - Alto da Boa Vista, Rio de Janeiro - RJ',
     image: [ChristTheRedeemerImg.Christ_the_Redeemer_1_Img, ChristTheRedeemerImg.Christ_the_Redeemer_2_Img, ChristTheRedeemerImg.Christ_the_Redeemer_3_Img, ChristTheRedeemerImg.Christ_the_Redeemer_4_Img, ChristTheRedeemerImg.Christ_the_Redeemer_5_Img],
     description: 'Эта грандиозная статуя считается символом христианства и города. Христос протянул руки, как бы обнимая мир. Она привлекает множество туристов и почитается верующими как знак любви и надежды.',
