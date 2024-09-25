@@ -26,30 +26,6 @@ export const AboutAttractionTitle = styled.span`
   }
 `
 
-export const AboutAttractionAddress = styled.address`
-  margin-bottom: 0.5rem;
-  text-align: center;
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: ${theme.colors.secondaryLight};
-
-  @media ${theme.media.small} {
-    font-size: 1rem;
-  }
-`
-
-export const AboutAttractionWebsite = styled(Link)`
-  margin-bottom: 3rem;
-  text-align: center;
-  font-size: 1.1rem;
-  font-weight: 200;
-  color: ${theme.colors.white};
-
-  @media ${theme.media.small} {
-    font-size: 0.9rem;
-  }
-`
-
 export const AboutAttractionDescriptionBox = styled.div`
   display: flex;
   flex-direction: column;
