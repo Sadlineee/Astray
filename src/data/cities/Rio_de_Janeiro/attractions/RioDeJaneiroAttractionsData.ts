@@ -18,7 +18,7 @@ export const RioDeJaneiroAttractionsData: AttractionCardProps [] = [
   { 
     id: 2,
     image: Copacabana_Beach_Img,
-    title: 'Копакабана',
+    title: 'Пляж Копакабана',
     translate: 'Copacabana Beach',
     rating: 4.5
   }
