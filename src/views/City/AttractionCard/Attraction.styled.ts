@@ -32,14 +32,16 @@ export const AttractionImg = styled.div`
 `
 
 export const AttractionTitle = styled.span`
-  margin-top: 2.25rem;
+  width: 80%;
+  margin-top: 1.5rem;
   text-align: center;
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 1.75rem;
+  font-weight: 700;
   color: ${theme.colors.white};
 
   @media ${theme.media.small} {
-    margin-top: 1.75rem;
+    width: 90%;
+    margin-top: 1.25rem;
     font-size: 1.5rem;
   }
 `

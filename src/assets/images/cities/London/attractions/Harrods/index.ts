@@ -1,0 +1,5 @@
+export { default as Harrods_1_Img } from './1.jpg'
+export { default as Harrods_2_Img } from './2.jpg'
+export { default as Harrods_3_Img } from './3.jpg'
+export { default as Harrods_4_Img } from './4.jpg'
+export { default as Harrods_5_Img } from './5.jpg'

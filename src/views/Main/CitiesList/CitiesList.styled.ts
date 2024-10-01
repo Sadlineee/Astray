@@ -37,13 +37,13 @@ export const CityImg = styled.div`
 `
 
 export const CityTitle = styled.span`
-  margin-top: 2.25rem;
-  font-size: 2rem;
-  font-weight: 500;
+  margin-top: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
   color: ${theme.colors.white};
 
   @media (max-width: 599px) {
-    margin-top: 1.75rem;
+    margin-top: 1.25rem;
     font-size: 1.5rem;
   }
 `
