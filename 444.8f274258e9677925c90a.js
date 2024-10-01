@@ -116,14 +116,16 @@
     height: 11rem;
   }
 `,h=l.Ay.span`
-  margin-top: 2.25rem;
+  width: 80%;
+  margin-top: 1.5rem;
   text-align: center;
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 1.75rem;
+  font-weight: 700;
   color: ${m.w.colors.white};
 
   @media ${m.w.media.small} {
-    margin-top: 1.75rem;
+    width: 90%;
+    margin-top: 1.25rem;
     font-size: 1.5rem;
   }
 `,f=l.Ay.span`
