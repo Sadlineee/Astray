@@ -5,6 +5,7 @@ import {
   Central_Park_Img, 
   Empire_State_Building_Img, 
   Grand_Central_Terminal_Img, 
+  Metropolitan_Museum_of_Art_Img, 
   Statue_of_Liberty_Img, 
   Times_Square_Img 
 } from '@assets/images/cities/New_York/attractions'
@@ -57,5 +58,13 @@ export const NewYorkAttractionsData: AttractionCardProps [] = [
     title: 'Центральный вокзал',
     translate: 'Grand Central Terminal',
     rating: 4.7
+  },
+
+  { 
+    id: 7,
+    image: Metropolitan_Museum_of_Art_Img,
+    title: 'Метрополитен-музей',
+    translate: 'The Metropolitan Museum of Art',
+    rating: 4.8
   }
 ]

@@ -1,0 +1,5 @@
+export { default as Metropolitan_Museum_of_Art_1_Img } from './1.jpg'
+export { default as Metropolitan_Museum_of_Art_2_Img } from './2.jpg'
+export { default as Metropolitan_Museum_of_Art_3_Img } from './3.jpg'
+export { default as Metropolitan_Museum_of_Art_4_Img } from './4.jpg'
+export { default as Metropolitan_Museum_of_Art_5_Img } from './5.jpg'

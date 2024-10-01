@@ -1,7 +1,9 @@
 import { AttractionCardProps } from '@/types/AttractionCardProps'
 
 import { 
-  Rijksmuseum_Img
+  De_Wallen_Img,
+  Rijksmuseum_Img,
+  Vondelpark_Img
 } from '@assets/images/cities/Amsterdam/attractions'
 
 export const AmsterdamAttractionsData: AttractionCardProps [] = [
@@ -12,5 +14,21 @@ export const AmsterdamAttractionsData: AttractionCardProps [] = [
     title: 'Рейксмузеум',
     translate: 'Rijksmuseum',
     rating: 4.7
+  },
+
+  { 
+    id: 2,
+    image: Vondelpark_Img,
+    title: 'Парк Вондела',
+    translate: 'Vondelpark',
+    rating: 4.7
+  },
+
+  { 
+    id: 3,
+    image: De_Wallen_Img,
+    title: 'Де Валлен',
+    translate: 'De Wallen',
+    rating: 4.0
   }
 ]

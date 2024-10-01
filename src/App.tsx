@@ -41,7 +41,8 @@ import {
   BrooklynBridgeData,
   CentralParkData,
   EmpireStateBuildingData,
-  GrandCentralTerminalData
+  GrandCentralTerminalData,
+  MetropolitanMuseumOfArtData
 } from '@data/cities/New_York/attractions'
 
 import { 
@@ -56,7 +57,9 @@ import {
 } from '@data/cities/Prague/attractions'
 
 import { 
-  RijksmuseumData 
+  DeWallenData,
+  RijksmuseumData, 
+  VondelparkData
 } from '@data/cities/Amsterdam/attractions'
 
 const Home = lazy(() => import('@views/Home'))
@@ -104,6 +107,7 @@ const attractionRoutes = [
   { path: '/main/3/4', component: <Attraction data={CentralParkData} /> },
   { path: '/main/3/5', component: <Attraction data={EmpireStateBuildingData} /> },
   { path: '/main/3/6', component: <Attraction data={GrandCentralTerminalData} /> },
+  { path: '/main/3/7', component: <Attraction data={MetropolitanMuseumOfArtData} /> },
 
   { path: '/main/4/1', component: <Attraction data={ChristTheRedeemerData} /> },
   { path: '/main/4/2', component: <Attraction data={CopacabanaBeachData} /> },
@@ -112,7 +116,9 @@ const attractionRoutes = [
   { path: '/main/5/2', component: <Attraction data={OldTownSquareData} /> },
   { path: '/main/5/3', component: <Attraction data={PragueCastleData} /> },
 
-  { path: '/main/6/1', component: <Attraction data={RijksmuseumData} /> }
+  { path: '/main/6/1', component: <Attraction data={RijksmuseumData} /> },
+  { path: '/main/6/2', component: <Attraction data={VondelparkData} /> },
+  { path: '/main/6/3', component: <Attraction data={DeWallenData} /> }
 ]
 
 const App: React.FC = () => {
