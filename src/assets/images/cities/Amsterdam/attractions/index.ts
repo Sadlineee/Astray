@@ -1,0 +1,1 @@
+export { default as Rijksmuseum_Img } from './Rijksmuseum/2.jpg'

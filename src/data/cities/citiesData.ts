@@ -1,6 +1,6 @@
 import { CityCardProps } from '@/types/CityCardProps'
 import * as flagImg from '@assets/images/flags'
-import { London_Img, Paris_Img, New_York_Img, Rio_de_Janeiro_Img, Prague_Img } from '@assets/images/cities'
+import { London_Img, Paris_Img, New_York_Img, Rio_de_Janeiro_Img, Prague_Img, Amsterdam_Img } from '@assets/images/cities'
 
 export const citiesData: CityCardProps[] = [
   
@@ -47,5 +47,14 @@ export const citiesData: CityCardProps[] = [
     country: 'Чехия',
     flag: flagImg.Czech_Republic,
     description: 'Очаровательная столица Чехии, знаменитая историческими зданиями и культурой.'
+  },
+
+  { 
+    id: 6,
+    image: Amsterdam_Img,
+    title: 'Амстердам',
+    country: 'Нидерланды',
+    flag: flagImg.Netherlands,
+    description: 'Город каналов, живописных улиц и музеев, где история встречается с современностью.'
   }
 ]
