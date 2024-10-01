@@ -91,7 +91,7 @@
     height: 1.5rem;
     font-size: 1.5rem;
   }
-`,c=()=>(0,n.jsxs)(m,{children:[(0,n.jsx)(l,Object.assign({to:"/astray"},{children:"astray"})),(0,n.jsx)(d,Object.assign({to:"https://t.me/Sadlineee",target:"_blank"},{children:(0,n.jsx)(o.hFS,{})}))]})},467:(e,i,t)=>{t.r(i),t.d(i,{HomeBox:()=>d,HomeButton:()=>y,HomeLeftSide:()=>c,HomeLine:()=>w,HomeRightSide:()=>p,HomeTextOne:()=>h,HomeTextTwo:()=>f,default:()=>x});var n=t(848),o=t(464),r=t(264),a=t(457),s=t(976),m=t(581),l=t(594);const d=m.Ay.main`
+`,c=()=>(0,n.jsxs)(m,{children:[(0,n.jsx)(l,Object.assign({to:"/astray"},{children:"astray"})),(0,n.jsx)(d,Object.assign({to:"https://t.me/Sadlineee",target:"_blank"},{children:(0,n.jsx)(o.hFS,{})}))]})},86:(e,i,t)=>{t.r(i),t.d(i,{HomeBox:()=>d,HomeButton:()=>y,HomeLeftSide:()=>c,HomeLine:()=>w,HomeRightSide:()=>p,HomeTextOne:()=>h,HomeTextTwo:()=>f,default:()=>x});var n=t(848),o=t(464),r=t(264),a=t(457),s=t(976),m=t(581),l=t(594);const d=m.Ay.main`
   display: flex;
   flex-direction: row;
   align-items: center;

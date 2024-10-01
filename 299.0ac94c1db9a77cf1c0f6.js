@@ -1,4 +1,4 @@
-"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[834],{457:(e,i,t)=>{t.d(i,{Ay:()=>c});var a=t(848),r=t(540),n=t(581),s=t(594);const o=n.Ay.div`
+"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[299],{457:(e,i,t)=>{t.d(i,{Ay:()=>c});var a=t(848),r=t(540),n=t(581),s=t(594);const o=n.Ay.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +91,7 @@
     height: 1.5rem;
     font-size: 1.5rem;
   }
-`,d=()=>(0,a.jsxs)(l,{children:[(0,a.jsx)(c,Object.assign({to:"/astray"},{children:"astray"})),(0,a.jsx)(m,Object.assign({to:"https://t.me/Sadlineee",target:"_blank"},{children:(0,a.jsx)(r.hFS,{})}))]})},834:(e,i,t)=>{t.r(i),t.d(i,{Circle:()=>k,CircleText:()=>L,MainBox:()=>b,MainLeftSide:()=>$,MainRightSide:()=>C,MainText:()=>z,MainTopSection:()=>v,default:()=>I});var a=t(848),r=t(540),n=t(464),s=t(264),o=t(581),l=t(594);const c=o.Ay.input`
+`,d=()=>(0,a.jsxs)(l,{children:[(0,a.jsx)(c,Object.assign({to:"/astray"},{children:"astray"})),(0,a.jsx)(m,Object.assign({to:"https://t.me/Sadlineee",target:"_blank"},{children:(0,a.jsx)(r.hFS,{})}))]})},299:(e,i,t)=>{t.r(i),t.d(i,{Circle:()=>k,CircleText:()=>L,MainBox:()=>b,MainLeftSide:()=>$,MainRightSide:()=>C,MainText:()=>z,MainTopSection:()=>v,default:()=>U});var a=t(848),r=t(540),n=t(464),s=t(264),o=t(581),l=t(594);const c=o.Ay.input`
   text-align: center;
   margin-top: 4rem;
   padding: 0.5rem;
@@ -123,7 +123,7 @@
     width: 15rem;
     font-size: 1rem;
   }
-`,m=({searchValue:e,onSearchValueChange:i})=>(0,a.jsx)(c,{type:"text",maxLength:40,placeholder:"Введите город или страну",value:e,onChange:e=>{i(e.target.value)}});var d=t(457),h=t(976);const p=o.Ay.div`
+`,m=({searchValue:e,onSearchValueChange:i})=>(0,a.jsx)(c,{type:"text",maxLength:40,placeholder:"Введите город или страну",value:e,onChange:e=>{i(e.target.value)}});var d=t(457),h=t(976);const g=o.Ay.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
@@ -132,7 +132,7 @@
   @media (max-width: 599px) {
     grid-template-columns: repeat(1, 1fr);
   }
-`,g=(0,o.Ay)(h.N_)`
+`,p=(0,o.Ay)(h.N_)`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -211,7 +211,7 @@
     margin: 0.75rem 0 0.5rem 0;
     font-size: 0.9rem;
   }
-`,A=r.memo((({sortCitiesData:e})=>(0,a.jsx)(p,{children:e.map((e=>(0,a.jsxs)(g,Object.assign({to:`${e.id}`},{children:[(0,a.jsx)(x,{children:(0,a.jsx)(d.Ay,{src:e.image,alt:"city"})}),(0,a.jsx)(f,{children:e.title}),(0,a.jsx)(y,{children:e.country}),(0,a.jsx)(w,{src:e.flag,alt:"city flag"}),(0,a.jsx)(u,{children:e.description}),(0,a.jsx)(j,{children:"ПЕРЕЙТИ"})]}),e.id)))}))),b=o.Ay.main`
+`,A=r.memo((({sortCitiesData:e})=>(0,a.jsx)(g,{children:e.map((e=>(0,a.jsxs)(p,Object.assign({to:`${e.id}`},{children:[(0,a.jsx)(x,{children:(0,a.jsx)(d.Ay,{src:e.image,alt:"city"})}),(0,a.jsx)(f,{children:e.title}),(0,a.jsx)(y,{children:e.country}),(0,a.jsx)(w,{src:e.flag,alt:"city flag"}),(0,a.jsx)(u,{children:e.description}),(0,a.jsx)(j,{children:"ПЕРЕЙТИ"})]}),e.id)))}))),b=o.Ay.main`
   display: flex;
   flex-direction: column;
   padding: 0 15vw;
@@ -284,4 +284,4 @@
   font-weight: 300;
   letter-spacing: 2.25px;
   fill: ${l.w.colors.primary};
-`,S=t.p+"src/assets/images/flags/UK.png",M=t.p+"src/assets/images/flags/France.png",N=t.p+"src/assets/images/flags/USA.png",O=t.p+"src/assets/images/flags/Brazil.png",V=t.p+"src/assets/images/flags/Czech_Republic.png",E=t.p+"src/assets/images/flags/Netherlands.png";var T=t(748),_=t(555),D=t(12),F=t(123),R=t(234),B=t(696);const G=[{id:1,image:T.A,title:"Лондон",country:"Великобритания",flag:S,description:"Сердце Великобритании: Биг-Бен, Тауэр, бульвары, дворцы и сумрачные аллеи в тумане."},{id:2,image:_.A,title:"Париж",country:"Франция",flag:M,description:"Город любви, моды и искусства, знаменит Эйфелевой башней и Лувром."},{id:3,image:D.A,title:"Нью-Йорк",country:"США",flag:N,description:"Крупнейший город США с высокими небоскребами и разнообразной культурой."},{id:4,image:F.A,title:"Рио-де-Жанейро",country:"Бразилия",flag:O,description:"Город с потрясающими пляжами, захватывающими карнавальными праздниками и горами."},{id:5,image:R.A,title:"Прага",country:"Чехия",flag:V,description:"Очаровательная столица Чехии, знаменитая историческими зданиями и культурой."},{id:6,image:B.A,title:"Амстердам",country:"Нидерланды",flag:E,description:"Город каналов, живописных улиц и музеев, где история встречается с современностью."}],I=()=>{const[e,i]=(0,r.useState)(""),t=(0,r.useCallback)((e=>{i(e)}),[]),o=(0,r.useMemo)((()=>G.filter((i=>i.title.toLowerCase().includes(e.toLowerCase())||i.country.toLowerCase().includes(e.toLowerCase())))),[e]);return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.Ay,{}),(0,a.jsxs)(b,{children:[(0,a.jsxs)(v,{children:[(0,a.jsxs)($,{children:[(0,a.jsx)(z,{children:"Исследуйте, мечтайте, открывайте мир с новой стороны!"}),(0,a.jsx)(m,{searchValue:e,onSearchValueChange:t})]}),(0,a.jsx)(C,{children:(0,a.jsxs)(k,Object.assign({viewBox:"0 0 100 100"},{children:[(0,a.jsx)("path",{id:"text-path",d:"M20,50a30,30 0 1,1 60,0a30,30 0 1,1 -60,0",fill:"transparent"}),(0,a.jsx)(L,{children:(0,a.jsx)("textPath",Object.assign({href:"#text-path"},{children:"TRAVELING MEANS DEVELOPING"}))})]}))})]}),(0,a.jsx)(A,{sortCitiesData:o})]}),(0,a.jsx)(s.Ay,{})]})}}}]);
+`,S=t.p+"src/assets/images/flags/UK.png",M=t.p+"src/assets/images/flags/France.png",N=t.p+"src/assets/images/flags/USA.png",O=t.p+"src/assets/images/flags/Brazil.png",V=t.p+"src/assets/images/flags/Czech_Republic.png",E=t.p+"src/assets/images/flags/Netherlands.png",T=t.p+"src/assets/images/flags/Italy.png";var _=t(748),D=t(555),F=t(12),R=t(123),B=t(234),I=t(696),G=t(467);const P=[{id:1,image:_.A,title:"Лондон",country:"Великобритания",flag:S,description:"Сердце Великобритании: Биг-Бен, Тауэр, бульвары, дворцы и сумрачные аллеи в тумане."},{id:2,image:D.A,title:"Париж",country:"Франция",flag:M,description:"Город любви, моды и искусства, знаменит Эйфелевой башней и Лувром."},{id:3,image:F.A,title:"Нью-Йорк",country:"США",flag:N,description:"Крупнейший город США с высокими небоскребами и разнообразной культурой."},{id:4,image:R.A,title:"Рио-де-Жанейро",country:"Бразилия",flag:O,description:"Город с потрясающими пляжами, захватывающими карнавальными праздниками и горами."},{id:5,image:B.A,title:"Прага",country:"Чехия",flag:V,description:"Очаровательная столица Чехии, знаменитая историческими зданиями и культурой."},{id:6,image:I.A,title:"Амстердам",country:"Нидерланды",flag:E,description:"Город каналов, живописных улиц и музеев, где история встречается с современностью."},{id:7,image:G.A,title:"Рим",country:"Италия",flag:T,description:"Вечный город, богатый историей, культурой и архитектурными шедеврами."}],U=()=>{const[e,i]=(0,r.useState)(""),t=(0,r.useCallback)((e=>{i(e)}),[]),o=(0,r.useMemo)((()=>P.filter((i=>i.title.toLowerCase().includes(e.toLowerCase())||i.country.toLowerCase().includes(e.toLowerCase())))),[e]);return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.Ay,{}),(0,a.jsxs)(b,{children:[(0,a.jsxs)(v,{children:[(0,a.jsxs)($,{children:[(0,a.jsx)(z,{children:"Исследуйте, мечтайте, открывайте мир с новой стороны!"}),(0,a.jsx)(m,{searchValue:e,onSearchValueChange:t})]}),(0,a.jsx)(C,{children:(0,a.jsxs)(k,Object.assign({viewBox:"0 0 100 100"},{children:[(0,a.jsx)("path",{id:"text-path",d:"M20,50a30,30 0 1,1 60,0a30,30 0 1,1 -60,0",fill:"transparent"}),(0,a.jsx)(L,{children:(0,a.jsx)("textPath",Object.assign({href:"#text-path"},{children:"TRAVELING MEANS DEVELOPING"}))})]}))})]}),(0,a.jsx)(A,{sortCitiesData:o})]}),(0,a.jsx)(s.Ay,{})]})}}}]);
