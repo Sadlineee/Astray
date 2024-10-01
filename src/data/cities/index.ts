@@ -4,3 +4,4 @@ export { NewYorkAttractionsData } from './New_York/attractions/NewYorkAttraction
 export { RioDeJaneiroAttractionsData } from './Rio_de_Janeiro/attractions/RioDeJaneiroAttractionsData'
 export { PragueAttractionsData } from './Prague/attractions/PragueAttractionsData'
 export { AmsterdamAttractionsData } from './Amsterdam/attractions/AmsterdamAttractionsData'
+export { RomeAttractionsData } from './Rome/attractions/RomeAttractionsData'

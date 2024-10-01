@@ -10,7 +10,8 @@ import {
   NewYorkAttractionsData, 
   RioDeJaneiroAttractionsData, 
   PragueAttractionsData,
-  AmsterdamAttractionsData
+  AmsterdamAttractionsData,
+  RomeAttractionsData
 } from '@data/cities'
 
 import { 
@@ -62,6 +63,11 @@ import {
   VondelparkData
 } from '@data/cities/Amsterdam/attractions'
 
+import { 
+  ColosseumData, 
+  PantheonData
+} from './data/cities/Rome/attractions'
+
 const Home = lazy(() => import('@views/Home'))
 const Main = lazy(() => import('@views/Main'))
 const City = lazy(() => import('@views/City'))
@@ -79,7 +85,8 @@ const cityRoutes = [
   { path: '/main/3', component: <City attractionsData={NewYorkAttractionsData} cityId={3} /> },
   { path: '/main/4', component: <City attractionsData={RioDeJaneiroAttractionsData} cityId={4} /> },
   { path: '/main/5', component: <City attractionsData={PragueAttractionsData} cityId={5} /> },
-  { path: '/main/6', component: <City attractionsData={AmsterdamAttractionsData} cityId={6} /> }
+  { path: '/main/6', component: <City attractionsData={AmsterdamAttractionsData} cityId={6} /> },
+  { path: '/main/7', component: <City attractionsData={RomeAttractionsData} cityId={7} /> }
 ]
 
 const attractionRoutes = [
@@ -118,7 +125,10 @@ const attractionRoutes = [
 
   { path: '/main/6/1', component: <Attraction data={RijksmuseumData} /> },
   { path: '/main/6/2', component: <Attraction data={VondelparkData} /> },
-  { path: '/main/6/3', component: <Attraction data={DeWallenData} /> }
+  { path: '/main/6/3', component: <Attraction data={DeWallenData} /> },
+
+  { path: '/main/7/1', component: <Attraction data={ColosseumData} /> },
+  { path: '/main/7/2', component: <Attraction data={PantheonData} /> }
 ]
 
 const App: React.FC = () => {

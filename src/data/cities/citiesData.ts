@@ -1,6 +1,14 @@
 import { CityCardProps } from '@/types/CityCardProps'
 import * as flagImg from '@assets/images/flags'
-import { London_Img, Paris_Img, New_York_Img, Rio_de_Janeiro_Img, Prague_Img, Amsterdam_Img } from '@assets/images/cities'
+import { 
+  London_Img, 
+  Paris_Img, 
+  New_York_Img, 
+  Rio_de_Janeiro_Img, 
+  Prague_Img, 
+  Amsterdam_Img, 
+  Rome_Img 
+} from '@assets/images/cities'
 
 export const citiesData: CityCardProps[] = [
   
@@ -56,5 +64,14 @@ export const citiesData: CityCardProps[] = [
     country: 'Нидерланды',
     flag: flagImg.Netherlands,
     description: 'Город каналов, живописных улиц и музеев, где история встречается с современностью.'
+  },
+
+  { 
+    id: 7,
+    image: Rome_Img,
+    title: 'Рим',
+    country: 'Италия',
+    flag: flagImg.Italy,
+    description: 'Вечный город, богатый историей, культурой и архитектурными шедеврами.'
   }
 ]
