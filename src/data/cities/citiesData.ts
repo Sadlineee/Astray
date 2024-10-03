@@ -7,7 +7,8 @@ import {
   Rio_de_Janeiro_Img, 
   Prague_Img, 
   Amsterdam_Img, 
-  Rome_Img 
+  Rome_Img, 
+  Singapore_Img
 } from '@assets/images/cities'
 
 export const citiesData: CityCardProps[] = [
@@ -73,5 +74,14 @@ export const citiesData: CityCardProps[] = [
     country: 'Италия',
     flag: flagImg.Italy,
     description: 'Вечный город, богатый историей, культурой и архитектурными шедеврами.'
+  },
+
+  { 
+    id: 8,
+    image: Singapore_Img,
+    title: 'Сингапур',
+    country: 'Сингапур',
+    flag: flagImg.Singapore,
+    description: 'Город-государство, известный своей архитектурой и культурным разнообразием.'
   }
 ]

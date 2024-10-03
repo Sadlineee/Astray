@@ -1,0 +1,5 @@
+export { default as Marina_Bay_Sands_1_Img } from './1.jpg'
+export { default as Marina_Bay_Sands_2_Img } from './2.jpg'
+export { default as Marina_Bay_Sands_3_Img } from './3.jpg'
+export { default as Marina_Bay_Sands_4_Img } from './4.jpg'
+export { default as Marina_Bay_Sands_5_Img } from './5.jpg'

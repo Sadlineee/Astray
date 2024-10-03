@@ -3,7 +3,7 @@ import { AttractionCardProps } from '@/types/AttractionCardProps'
 import { 
   Colosseum_Img, 
   Pantheon_Img
-} from '@/assets/images/cities/Rome/attractions'
+} from '@assets/images/cities/Rome/attractions'
 
 export const RomeAttractionsData: AttractionCardProps [] = [
 

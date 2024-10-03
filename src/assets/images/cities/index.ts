@@ -5,3 +5,4 @@ export { default as Rio_de_Janeiro_Img } from './Rio_de_Janeiro/attractions/Chri
 export { default as Prague_Img } from './Prague/attractions/Old_Town_Square/5.jpg'
 export { default as Amsterdam_Img } from './Amsterdam/attractions/Vondelpark/3.jpg'
 export { default as Rome_Img } from './Rome/attractions/Colosseum/1.jpg'
+export { default as Singapore_Img } from './Singapore/attractions/Marina_Bay_Sands/5.jpg'

@@ -1,0 +1,5 @@
+export { default as Place_des_Vosges_1_Img } from './1.jpg'
+export { default as Place_des_Vosges_2_Img } from './2.jpg'
+export { default as Place_des_Vosges_3_Img } from './3.jpg'
+export { default as Place_des_Vosges_4_Img } from './4.jpg'
+export { default as Place_des_Vosges_5_Img } from './5.jpg'

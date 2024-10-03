@@ -2,10 +2,12 @@ import { AttractionCardProps } from '@/types/AttractionCardProps'
 
 import { 
   Arc_de_Triomphe_Img, 
+  Jardin_des_Tuileries_Img, 
   Louvre_Img, 
+  Place_des_Vosges_Img, 
   Sainte_Chapelle_Img, 
   Tour_Eiffel_Img 
-} from '@/assets/images/cities/Paris/attractions'
+} from '@assets/images/cities/Paris/attractions'
 
 export const ParisAttractionsData: AttractionCardProps [] = [
 
@@ -38,6 +40,22 @@ export const ParisAttractionsData: AttractionCardProps [] = [
     image: Sainte_Chapelle_Img,
     title: 'Сент-Шапель',
     translate: 'Sainte-Chapelle',
+    rating: 4.6
+  },
+
+  { 
+    id: 5,
+    image: Jardin_des_Tuileries_Img,
+    title: 'Сад Тюильри',
+    translate: 'Jardin des Tuileries',
+    rating: 4.6
+  },
+
+  { 
+    id: 6,
+    image: Place_des_Vosges_Img,
+    title: 'Площадь Вогезов',
+    translate: 'Place des Vosges',
     rating: 4.6
   }
 ]

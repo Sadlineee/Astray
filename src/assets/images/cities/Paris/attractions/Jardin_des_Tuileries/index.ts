@@ -1,0 +1,5 @@
+export { default as Jardin_des_Tuileries_1_Img } from './1.jpg'
+export { default as Jardin_des_Tuileries_2_Img } from './2.jpg'
+export { default as Jardin_des_Tuileries_3_Img } from './3.jpg'
+export { default as Jardin_des_Tuileries_4_Img } from './4.jpg'
+export { default as Jardin_des_Tuileries_5_Img } from './5.jpg'
