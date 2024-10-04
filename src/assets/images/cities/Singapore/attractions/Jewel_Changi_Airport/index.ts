@@ -1,0 +1,5 @@
+export { default as Jewel_Changi_Airport_1_Img } from './1.jpg'
+export { default as Jewel_Changi_Airport_2_Img } from './2.jpg'
+export { default as Jewel_Changi_Airport_3_Img } from './3.jpg'
+export { default as Jewel_Changi_Airport_4_Img } from './4.jpg'
+export { default as Jewel_Changi_Airport_5_Img } from './5.jpg'

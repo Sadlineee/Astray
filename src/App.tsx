@@ -71,7 +71,9 @@ import {
 
 import { 
   CloudForestData, 
+  JewelChangiAirportData, 
   MarinaBaySandsData,
+  SingaporeBotanicGardensData,
   SupertreeGroveData
 } from '@data/cities/Singapore/attractions'
 
@@ -140,7 +142,9 @@ const attractionRoutes = [
 
   { path: '/main/8/1', component: <Attraction data={CloudForestData} /> },
   { path: '/main/8/2', component: <Attraction data={MarinaBaySandsData} /> },
-  { path: '/main/8/3', component: <Attraction data={SupertreeGroveData} /> }
+  { path: '/main/8/3', component: <Attraction data={SupertreeGroveData} /> },
+  { path: '/main/8/4', component: <Attraction data={JewelChangiAirportData} /> },
+  { path: '/main/8/5', component: <Attraction data={SingaporeBotanicGardensData} /> }
 ]
 
 const App: React.FC = () => {

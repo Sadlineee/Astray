@@ -2,7 +2,9 @@ import { AttractionCardProps } from '@/types/AttractionCardProps'
 
 import { 
   Cloud_Forest_Img, 
+  Jewel_Changi_Airport_Img, 
   Marina_Bay_Sands_Img,
+  Singapore_Botanic_Gardens_Img,
   Supertree_Grove_Img
 } from '@assets/images/cities/Singapore/attractions'
 
@@ -30,5 +32,21 @@ export const SingaporeAttractionsData: AttractionCardProps [] = [
     title: 'Роща сверхдеревьев',
     translate: 'Supertree Grove',
     rating: 4.7
-  }
+  },
+
+  { 
+    id: 4,
+    image: Jewel_Changi_Airport_Img,
+    title: 'Аэропорт Чанги',
+    translate: 'Jewel Changi Airport',
+    rating: 4.8
+  },
+
+  { 
+    id: 5,
+    image: Singapore_Botanic_Gardens_Img,
+    title: 'Сингапурский ботанический сад',
+    translate: 'Singapore Botanic Gardens',
+    rating: 4.7
+  },
 ]
