@@ -1,0 +1,5 @@
+export { default as Notre_Dame_de_Paris_1_Img } from './1.jpg'
+export { default as Notre_Dame_de_Paris_2_Img } from './2.jpg'
+export { default as Notre_Dame_de_Paris_3_Img } from './3.jpg'
+export { default as Notre_Dame_de_Paris_4_Img } from './4.jpg'
+export { default as Notre_Dame_de_Paris_5_Img } from './5.jpg'

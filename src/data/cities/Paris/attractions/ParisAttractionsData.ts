@@ -3,7 +3,9 @@ import { AttractionCardProps } from '@/types/AttractionCardProps'
 import { 
   Arc_de_Triomphe_Img, 
   Jardin_des_Tuileries_Img, 
+  Jardin_du_Luxembourg_Img, 
   Louvre_Img, 
+  Notre_Dame_de_Paris_Img, 
   Place_des_Vosges_Img, 
   Sainte_Chapelle_Img, 
   Tour_Eiffel_Img 
@@ -57,5 +59,21 @@ export const ParisAttractionsData: AttractionCardProps [] = [
     title: 'Площадь Вогезов',
     translate: 'Place des Vosges',
     rating: 4.6
+  },
+
+  { 
+    id: 7,
+    image: Notre_Dame_de_Paris_Img,
+    title: 'Нотр-Дам-де-Пари',
+    translate: 'Notre-Dame de Paris',
+    rating: 4.7
+  },
+
+  { 
+    id: 8,
+    image: Jardin_du_Luxembourg_Img,
+    title: 'Люксембургский сад',
+    translate: 'Jardin du Luxembourg',
+    rating: 4.7
   }
 ]

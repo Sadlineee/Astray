@@ -36,7 +36,9 @@ import {
   ArcDeTriompheData, 
   SainteChapelleData,
   JardinDesTuileriesData,
-  PlaceDesVosgesData
+  PlaceDesVosgesData,
+  NotreDameDeParisData,
+  JardinDuLuxembourgData
 } from '@data/cities/Paris/attractions'
 
 import { 
@@ -127,6 +129,8 @@ const attractionRoutes = [
   { path: '/main/2/4', component: <Attraction data={SainteChapelleData} /> },
   { path: '/main/2/5', component: <Attraction data={JardinDesTuileriesData} /> },
   { path: '/main/2/6', component: <Attraction data={PlaceDesVosgesData} /> },
+  { path: '/main/2/7', component: <Attraction data={NotreDameDeParisData} /> },
+  { path: '/main/2/8', component: <Attraction data={JardinDuLuxembourgData} /> },
 
   { path: '/main/3/1', component: <Attraction data={StatueOfLibertyData} /> },
   { path: '/main/3/2', component: <Attraction data={TimesSquareData} /> },
