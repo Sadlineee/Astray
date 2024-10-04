@@ -72,7 +72,9 @@ import {
 
 import { 
   ColosseumData, 
-  PantheonData
+  ForoRomanoData, 
+  PantheonData,
+  PiazzaNavonaData
 } from '@data/cities/Rome/attractions'
 
 import { 
@@ -151,6 +153,8 @@ const attractionRoutes = [
 
   { path: '/main/7/1', component: <Attraction data={ColosseumData} /> },
   { path: '/main/7/2', component: <Attraction data={PantheonData} /> },
+  { path: '/main/7/3', component: <Attraction data={ForoRomanoData} /> },
+  { path: '/main/7/4', component: <Attraction data={PiazzaNavonaData} /> },
 
   { path: '/main/8/1', component: <Attraction data={CloudForestData} /> },
   { path: '/main/8/2', component: <Attraction data={MarinaBaySandsData} /> },
