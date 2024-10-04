@@ -1,2 +1,5 @@
 export { default as Christ_the_Redeemer_Img } from './Christ_the_Redeemer/3.jpg'
 export { default as Copacabana_Beach_Img } from './Copacabana_Beach/2.jpg'
+export { default as Escadaria_Selaron_Img } from './Escadaria_Selaron/2.jpg'
+export { default as Parque_Lage_Img } from './Parque_Lage/4.jpg'
+export { default as Sugarloaf_Mountain_Img } from './Sugarloaf_Mountain/2.jpg'

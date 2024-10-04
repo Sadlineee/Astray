@@ -1,2 +1,5 @@
 export { ChristTheRedeemerData } from './ChristTheRedeemerData'
 export { CopacabanaBeachData } from './CopacabanaBeachData'
+export { EscadariaSelaronData } from './EscadariaSelaronData'
+export { ParqueLageData } from './ParqueLageData'
+export { SugarloafMountainData } from './SugarloafMountainData'

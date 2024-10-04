@@ -34,7 +34,9 @@ import {
   TourEiffelData,
   LouvreData,  
   ArcDeTriompheData, 
-  SainteChapelleData
+  SainteChapelleData,
+  JardinDesTuileriesData,
+  PlaceDesVosgesData
 } from '@data/cities/Paris/attractions'
 
 import { 
@@ -49,7 +51,10 @@ import {
 
 import { 
   ChristTheRedeemerData, 
-  CopacabanaBeachData 
+  CopacabanaBeachData, 
+  EscadariaSelaronData,
+  ParqueLageData,
+  SugarloafMountainData
 } from '@data/cities/Rio_de_Janeiro/attractions'
 
 import { 
@@ -61,6 +66,7 @@ import {
 import { 
   DeWallenData,
   RijksmuseumData, 
+  VanGoghMuseumData, 
   VondelparkData
 } from '@data/cities/Amsterdam/attractions'
 
@@ -117,6 +123,8 @@ const attractionRoutes = [
   { path: '/main/2/2', component: <Attraction data={LouvreData} /> },
   { path: '/main/2/3', component: <Attraction data={ArcDeTriompheData} /> },
   { path: '/main/2/4', component: <Attraction data={SainteChapelleData} /> },
+  { path: '/main/2/5', component: <Attraction data={JardinDesTuileriesData} /> },
+  { path: '/main/2/6', component: <Attraction data={PlaceDesVosgesData} /> },
 
   { path: '/main/3/1', component: <Attraction data={StatueOfLibertyData} /> },
   { path: '/main/3/2', component: <Attraction data={TimesSquareData} /> },
@@ -128,6 +136,9 @@ const attractionRoutes = [
 
   { path: '/main/4/1', component: <Attraction data={ChristTheRedeemerData} /> },
   { path: '/main/4/2', component: <Attraction data={CopacabanaBeachData} /> },
+  { path: '/main/4/3', component: <Attraction data={EscadariaSelaronData} /> },
+  { path: '/main/4/4', component: <Attraction data={ParqueLageData} /> },
+  { path: '/main/4/5', component: <Attraction data={SugarloafMountainData} /> },
 
   { path: '/main/5/1', component: <Attraction data={CharlesBridgeData} /> },
   { path: '/main/5/2', component: <Attraction data={OldTownSquareData} /> },
@@ -136,6 +147,7 @@ const attractionRoutes = [
   { path: '/main/6/1', component: <Attraction data={RijksmuseumData} /> },
   { path: '/main/6/2', component: <Attraction data={VondelparkData} /> },
   { path: '/main/6/3', component: <Attraction data={DeWallenData} /> },
+  { path: '/main/6/4', component: <Attraction data={VanGoghMuseumData} /> },
 
   { path: '/main/7/1', component: <Attraction data={ColosseumData} /> },
   { path: '/main/7/2', component: <Attraction data={PantheonData} /> },

@@ -1,0 +1,5 @@
+export { default as Escadaria_Selaron_1_Img } from './1.jpg'
+export { default as Escadaria_Selaron_2_Img } from './2.jpg'
+export { default as Escadaria_Selaron_3_Img } from './3.jpg'
+export { default as Escadaria_Selaron_4_Img } from './4.jpg'
+export { default as Escadaria_Selaron_5_Img } from './5.jpg'
